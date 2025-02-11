@@ -1,0 +1,23 @@
+{
+  "name": "pic2avif",
+  "version": "1.0.0",
+  "description": "A GUI tool for converting common image formats to AVIF on macOS",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "image",
+    "converter",
+    "avif",
+    "gui",
+    "macos"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^25.3.1",
+    "sharp": "^0.32.6"
+  }
+}
